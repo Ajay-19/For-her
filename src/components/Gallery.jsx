@@ -4,7 +4,7 @@ import { FaUpload } from "react-icons/fa";  // Importing the upload icon from re
 const Gallery = () => {
   const [galleryImages, setGalleryImages] = useState([
     "/images/image1.jpg",
-    "/images/image2.jpg",
+    "/images/imag2.jpg",
     "/images/image3.jpg",
     "/images/image4.jpg",
     "/images/image8.jpg",
