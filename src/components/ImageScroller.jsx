@@ -36,7 +36,7 @@ const ImageScroller = () => {
       <div
         className="flex w-full transition-transform duration-700 ease-in-out"
         style={{
-          transform: `translateX(-${(index + 1) * 100}vw)`, // Adjust to correctly scroll each image one by one
+          transform: `translateX(-${(index + 1) * 100}vw)`,
           width: `${(images.length + 1) * 100}vw`, // Make sure to consider the duplicated image width
         }}
       >
